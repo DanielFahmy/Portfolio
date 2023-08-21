@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Portfolio.css">
+    <title>Daniel Fahmy Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@900&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@900&family=Rajdhani&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/5384779d31.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <h1 class="name" id="refresh"><span class="d">D</span>aniel</h1>
+        <nav>
+            <ul id="sidemenu">
+                <li><a href=".home">Home</a></li>
+                <li><a href=".about">About</a></li>
+                <li><a href=".skills">Skills</a></li>
+                <li><a href=".portfolio">Portfolio</a></li>
+                <li><a href=".contact">Contact</a></li>
+                <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+    </header>
+    <main class="home">
+        <p>Full Stack Developer</p>
+        <h1>Hi, I'm <span>Daniel</span><br>Fahmy From New York</h1>
+    </main>
+    <section class="about">
+        <div class="container">
+            <div class="box">
+            <h1 class="headers">About Me</h1>
+                <div class="summary">
+                <p id="summary">An ambitious Computer Science student at College of 
+                            Staten Island seeking an internship in software 
+                            engineering to showcase everything I have learned 
+                            on computer science since high school. I am very 
+                            inquisitive to experience what it is like to work on 
+                            the field for the first time and very excited to share 
+                            my ideas with teams and other software engineers like 
+                            me. Most of my accomplishments were done on C++ and Java. 
+                            I am currently trying to gain more experience and 
+                            knowledge on Python.
+                </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="skills">
+        <div class="container">
+            <div class="box">
+            <h1 class="headers">Skills</h1>
+            <div class="skills-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Front-End</h2>
+                    <ul class="skill-bullets">
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>JavaScript</li>
+                    </ul>
+                </div>
+                <div>
+                    <i class="fa-solid fa-computer"></i>
+                    <h2>Back-End</h2>
+                    <ul class="skill-bullets">
+                        <li>C++</li>
+                        <li>Java</li>
+                        <li>Python</li>
+                    </ul>
+                    </ul>
+                </div>
+                <div>
+                    <i class="fas fa-database"></i>
+                    <h2>Database</h2>
+                    <ul class="skill-bullets">
+                        <li>MongoDB</li>
+                        <li>MySQL</li>
+                    </ul>
+                </div>
+            </div>
+            <div>
+        </div>
+    </section>
+    <section class="portfolio">
+        <div class="container">
+            <div class="box">
+            <h1 class="headers">Portfolio</h1>
+            <div class="portfolio-list">
+                <div class="project">
+                    <img src="C:\Users\danie\HTML\white.jpg">
+                    <div class="layer">
+                        <h3>COMING SOON</h3>
+                    </div>
+                </div>
+                <div class="project">
+                    <img src="C:\Users\danie\HTML\white.jpg">
+                    <div class="layer">
+                        <h3>COMING SOON</h3>
+                    </div>
+                </div>
+                <div class="project">
+                    <img src="C:\Users\danie\HTML\white.jpg">
+                    <div class="layer">
+                        <h3>COMING SOON</h3>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </div>
+    </section>
+    <footer class="contact">
+        <div class="container">
+            <div class="box">
+            <h1 class="headers">Contact Me</h1>
+            <div class="row">
+                <div class="contact-left">
+                    <p><i class="fa-regular fa-envelope"></i> Daniel.Fahmy@cix.csi.cuny.edu</p>
+                    <div class="social-icon">
+                        <a href="https://www.linkedin.com/in/danielfahmy/"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://github.com/DanielFahmy"><i class="fa-brands fa-square-github"></i></a>
+                    </div>
+                    <a href="C:\Users\danie\HTML\Daniel Fahmy_Resume_.pdf" class="btn btn2" download>Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+            </div>
+        </div>
+        <div class="copyright">Copyright © 2023 Daniel Fahmy. All Rights Reserved</div>
+    </footer>
+    <script src="portfolio1.js"></script>
+</body>
+</html>
