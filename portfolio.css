@@ -5,7 +5,7 @@
 }
 
 body{
-    background-color: #ccc5b9;
+    background-color: white;
 }
 
 .name{
@@ -18,6 +18,14 @@ body{
     top: -18px;
     transition: text-shadow 0.5s ease-in-out;
     margin-top: 3%;
+}
+
+.home{
+    position: relative;
+    top: 200px;
+}
+.home-container{
+    
 }
 
 #refresh:hover{
@@ -34,7 +42,8 @@ body{
 }
 
 header{
-    background: linear-gradient(to top,#fffcf2,#5b5957);
+    background: #fff;
+    box-shadow: 0 1px 6px 0 rgba(32, 33, 36, 0.28);
     font-family: 'Fira Sans', sans-serif;
     font-family: 'Rajdhani', sans-serif;
     position: fixed;
@@ -62,10 +71,11 @@ nav ul li{
 }
 
 li a{
-    color: #eb5e28;
+    color: black;
     text-decoration: none;
     transition: text-shadow 0.5s ease-in-out;
     font-size: 18px;
+    font-weight: 600;
 }
 
 li a:hover{
@@ -81,15 +91,22 @@ li a:hover{
     }
 }
 
+
+
+
 .home{
-    margin-top: 25%;
-    font-size: 40px;
-    width: fit-content;
-    margin-left: 15%;
-    margin-bottom: 20%;
+    width: 800px;
+    font-size: 50px;
+ 
+    padding: 50px 0 500px;
     color: #403d39;
     font-family: 'Fira Sans', sans-serif;
     font-family: 'Rajdhani', sans-serif;
+}
+
+.home-container{
+    position: relative;
+    left: 234px
 }
 
 .home p{
@@ -104,7 +121,7 @@ li a:hover{
 
 .about{
     height: 67vh;
-    background-color: #ccc5b9;
+    background-color: white;
     text-align: center;
     font-family: 'Fira Sans', sans-serif;
     font-family: 'Rajdhani', sans-serif;
@@ -128,7 +145,7 @@ li a:hover{
     width: 430px;
     height: 270px;
     background-color: #403d39;
-    color: #ccc5b9;
+    color: white;
     padding: 18px;
     font-size: 18px;
     font-weight: 500s;
@@ -175,7 +192,7 @@ li a:hover{
 
 .skills-list div{
     background-color: #403d39;
-    color: #ccc5b9;
+    color: white;
     padding: 50px;
     font-size: 15px;
     font-weight: 300s;
@@ -224,7 +241,8 @@ li a:hover{
     justify-content: center;
 }
 
-.project img{
+.project .img{
+    background-color: #403d39;
     width: 100%;
     border-radius: 10px;
     transition: tranform 0.5s;
@@ -360,7 +378,8 @@ form .btn2{
     padding: 25px 0;
     font-weight: 300;
     margin-top: 20px;
-    background: linear-gradient(to top,#5b5957,#fffcf2);
+    background: #fff;
+    box-shadow: 0 1px 6px 0 rgba(32, 33, 36, 0.28);
     color: black;
 }
 
